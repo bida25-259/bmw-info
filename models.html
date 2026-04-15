@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="images/bmw-blue.jpg" type="image/jpeg" />
+  <title>BMW Models</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light px-5 fixed-top custom-navbar">
+    <a class="navbar-brand" href="index.html">BMW Info</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item active"><a class="nav-link" href="models.html">Models</a></li>
+        <li class="nav-item"><a class="nav-link" href="history.html">History</a></li>
+       <li class="nav-item"><a class="nav-link" href="about.html">About</a></li> 
+       <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        <li class="nav-item"><a class="nav-link" href="feedback.html">Feedback</a></li>
+        
+      </ul>
+    </div>
+  </nav>
+  <header class="hero text-white text-center d-flex align-items-center" style="height: 100vh; background-image: url('images/bmw-blue.jpg'); background-size: fit; background-position: center; margin-top: 56px;">
+     
+   <div class="container">
+      <h1 class="display-4">Explore Our BMW Models!</h1>
+      <p class="lead">Find your next favorite car below.</p>
+    </div>
+  </header>
+   <section id="More-Models" class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">More Models</h2>
+    <div class="row justify-content-center">
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="images/bmw-3-series.jpg" class="card-img-top" alt="BMW 3 Series" />
+          <div class="card-body">
+            <h5 class="card-title">BMW 3 Series</h5>
+            <p class="card-text">A stylish and performance-driven sedan.</p>
+            <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#modalBMW3Series">View Model</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="images/bmw-4-series.jpg" class="card-img-top" alt="BMW 4 Series" />
+          <div class="card-body">
+            <h5 class="card-title">BMW 4 Series</h5>
+           <p class="card-text">A sleek and powerful sports car.</p>
+            <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#modalBMW4Series">View Model</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="images/bmw-5-series.jpg" class="card-img-top" alt="BMW 5 Series" />
+          <div class="card-body">
+            <h5 class="card-title">BMW 5 Series</h5>
+           <p class="card-text">A luxurious and spacious executive sedan.</p>
+            <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#modalBMW5Series">View Model</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="images/bmw-m4.jpg" class="card-img-top" alt="BMW M4" />
+          <div class="card-body">
+            <h5 class="card-title">BMW M4</h5>
+            <p class="card-text">A high-performance sports car.</p>
+            <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#modalBMWM4">View Model</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="images/bmw-m5-f90.jpg" class="card-img-top" alt="BMW M5 f90" />
+          <div class="card-body">
+            <h5 class="card-title">BMW M5 f90</h5>
+           <p class="card-text">A high-performance luxury sedan.</p>
+            <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#modalBMWM5">View Model</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="images/bmw-i7.jpg" class="card-img-top" alt="BMW i7" />
+          <div class="card-body">
+            <h5 class="card-title">BMW i7</h5>
+             <p class="card-text">A luxurious and technologically advanced electric sedan.</p>
+            <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#modalBMWi7">View Model</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="images/bmw-i8.jpg" class="card-img-top" alt="BMW i8" />
+          <div class="card-body">
+            <h5 class="card-title">BMW i8</h5>
+             <p class="card-text">A cutting-edge plug-in hybrid sports car.</p>
+            <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#modalBMWi8">View Model</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="images/bmw-x5.jpg" class="card-img-top" alt="BMW X5" />
+          <div class="card-body">
+            <h5 class="card-title">BMW X5</h5>
+            <p class="card-text">A versatile and powerful SUV.</p>
+            <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#modalBMWX5">View Model</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="images/bmw-x6.jpg" class="card-img-top" alt="BMW X6" />
+          <div class="card-body">
+            <h5 class="card-title">BMW X6</h5>
+            <p class="card-text">A stylish and powerful SUV with a distinctive design.</p>
+            <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#modalBMWX6">View Model</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="images/bmw-x7.jpg" class="card-img-top" alt="BMW X7" />
+          <div class="card-body">
+            <h5 class="card-title">BMW X7</h5>
+            <p class="card-text">A spacious and luxurious SUV for families.</p>
+            <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#modalBMWX7">View Model</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="images/bmw-m9.jpg" class="card-img-top" alt="BMW M9" />
+          <div class="card-body">
+            <h5 class="card-title">BMW M9</h5>
+            <p class="card-text">A high-performance luxury sedan.</p>
+            <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#modalBMWM9">View Model</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="images/bmw-xm.jpg" class="card-img-top" alt="BMW XM" />
+          <div class="card-body">
+            <h5 class="card-title">BMW XM</h5>
+            <p class="card-text">A high-performance luxury SUV.</p>
+            <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#modalBMWXM">View Model</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<div class="modal fade" id="modalBMW3Series" tabindex="-1" aria-labelledby="modalBMW3SeriesLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content text-dark">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalBMW3SeriesLabel">BMW 3 Series Model Details</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <h6>Specifications:</h6>
+        <ul>
+    <li><strong>Performance:</strong> Turbocharged engines, RWD/AWD options, smooth automatic transmission</li>
+    <li><strong>Interior:</strong> Premium materials, digital display, comfortable seating for 5</li>
+    <li><strong>Technology:</strong> iDrive system, Apple CarPlay, Android Auto, voice control</li>
+    <li><strong>Safety:</strong> Adaptive cruise control, lane assist, blind-spot monitoring</li>
+  </ul>
+
+  <h2>Engine Options</h2>
+  <ul>
+    <li>318i / 320i – Efficient 4-cylinder turbo</li>
+    <li>330i – More powerful 4-cylinder turbo</li>
+    <li>M340i – High-performance 6-cylinder turbo</li>
+    <li>330e – Plug-in hybrid option</li>
+  </ul>
+
+  <h2>Fuel Efficiency</h2>
+  <p>
+    The BMW 3 Series offers excellent fuel efficiency for a luxury sedan, 
+    with hybrid models providing even lower fuel consumption and emissions.
+  </p>
+
+  <h2>Why Choose BMW 3 Series?</h2>
+  <ul>
+    <li>Sporty yet comfortable driving experience</li>
+    <li>Strong resale value</li>
+    <li>Advanced safety and technology</li>
+    <li>Premium brand reputation</li>
+  </ul>
+
+  <h2>Competitors</h2>
+  <ul>
+    <li>Mercedes-Benz C-Class</li>
+    <li>Audi A4</li>
+    <li>Lexus IS</li>
+  </ul>
+        </ol>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modalBMW4Series" tabindex="-1" aria-labelledby="modalBMW4SeriesLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content text-dark">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalBMW4SeriesLabel">BMW 4 Series Model Details</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <h6>Specifications:</h6>
+        <ul>
+          <li><strong>Performance:</strong> Turbocharged engines, RWD/AWD options, smooth automatic transmission</li>
+          <li><strong>Interior:</strong> Premium materials, digital display, comfortable seating for 5</li>
+          <li><strong>Technology:</strong> iDrive system, Apple CarPlay, Android Auto, voice control</li>
+          <li><strong>Safety:</strong> Adaptive cruise control, lane assist, blind-spot monitoring</li>
+        </ul>
+
+        <h2>Engine Options</h2>
+        <ul>
+          <li>418i / 420i – Efficient 4-cylinder turbo</li>
+          <li>430i – More powerful 4-cylinder turbo</li>
+          <li>M440i – High-performance 6-cylinder turbo</li>
+          <li>430e – Plug-in hybrid option</li>
+        </ul>
+
+        <h2>Fuel Efficiency</h2>
+        <p>
+          The BMW 4 Series offers excellent fuel efficiency for a luxury coupe,
+          with hybrid models providing even lower fuel consumption and emissions.
+        </p>
+
+        <h2>Why Choose BMW 4 Series?</h2>
+        <ul>
+          <li>Sporty yet comfortable driving experience</li>
+          <li>Strong resale value</li>
+          <li>Advanced safety and technology</li>
+          <li>Premium brand reputation</li>
+        </ul>
+
+        <h2>Competitors</h2>
+        <ul>
+          <li>Mercedes-Benz C-Class</li>
+          <li>Audi A4</li>
+          <li>Lexus IS</li>
+        </ul>
+       </ol>
+     </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modalBMW5Series" tabindex="-1" aria-labelledby="modalBMW5SeriesLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content text-dark">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalBMW5SeriesLabel">BMW 5 Series Model Details</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <h6>Specifications:</h6>
+         <ul>
+    <li><strong>Performance:</strong> Turbocharged engines, smooth automatic transmission, RWD/AWD options</li>
+    <li><strong>Comfort:</strong> Spacious cabin, premium materials, enhanced ride quality</li>
+    <li><strong>Interior:</strong> Large digital displays, luxury finishes, ambient lighting</li>
+    <li><strong>Technology:</strong> Latest iDrive system, Apple CarPlay, Android Auto, voice assistant</li>
+    <li><strong>Safety:</strong> Adaptive cruise control, lane keeping assist, parking assist, 360° camera</li>
+  </ul>
+
+  <h2>Engine Options</h2>
+  <ul>
+    <li>520i – Efficient 4-cylinder turbo engine</li>
+    <li>530i – More powerful 4-cylinder turbo</li>
+    <li>540i – 6-cylinder turbo with mild hybrid technology</li>
+    <li>550e – Plug-in hybrid option</li>
+  </ul>
+
+  <h2>Fuel Efficiency</h2>
+  <p>
+    The BMW 5 Series delivers solid fuel efficiency for its class, with hybrid 
+    models offering improved economy and reduced emissions.
+  </p>
+
+  <h2>Why Choose BMW 5 Series?</h2>
+  <ul>
+    <li>Luxury and comfort for long-distance driving</li>
+    <li>Advanced technology and driver assistance features</li>
+    <li>Powerful yet smooth performance</li>
+    <li>Spacious and executive-level interior</li>
+  </ul>
+        </ol>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modalBMWM4" tabindex="-1" aria-labelledby="modalBMWM4Label" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content text-dark">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalBMWM4Label">BMW M4 Model Details</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <h6>Specifications:</h6>
+         <ul>
+    <li><strong>Performance:</strong> Twin-turbocharged inline-6 engine, exceptional acceleration, rear-wheel or all-wheel drive (xDrive)</li>
+    <li><strong>Design:</strong> Bold kidney grille, aerodynamic body, sporty stance</li>
+    <li><strong>Interior:</strong> M sport seats, premium materials, driver-focused cockpit</li>
+    <li><strong>Technology:</strong> BMW iDrive system, digital cluster, performance tracking features</li>
+    <li><strong>Safety:</strong> Advanced driver assistance systems, stability control, parking assist</li>
+  </ul>
+
+  <h2>Engine Options</h2>
+  <ul>
+    <li>M4 – 3.0L twin-turbo inline-6</li>
+    <li>M4 Competition – Higher output version with enhanced performance</li>
+    <li>M4 Competition xDrive – All-wheel drive for maximum traction and speed</li>
+  </ul>
+
+  <h2>Fuel Efficiency</h2>
+  <p>
+    The BMW M4 prioritizes performance, but still offers reasonable efficiency 
+    for a high-performance sports car thanks to advanced engine technology.
+  </p>
+
+  <h2>Why Choose BMW M4?</h2>
+  <ul>
+    <li>Track-level performance and power</li>
+    <li>Sharp handling and driving precision</li>
+    <li>Aggressive and modern design</li>
+    <li>Premium sports interior with advanced tech</li>
+  </ul>
+        </ol>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modalBMWM5" tabindex="-1" aria-labelledby="modalBMWM5Label" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content text-dark">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalBMWM5Label">BMW M5 Model Details</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <h6>Specifications:</h6>
+         <ul>
+    <li><strong>Performance:</strong> Twin-turbocharged inline-6 engine, exceptional acceleration, rear-wheel or all-wheel drive (xDrive)</li>
+    <li><strong>Design:</strong> Bold kidney grille, aerodynamic body, sporty stance</li>
+    <li><strong>Interior:</strong> M sport seats, premium materials, driver-focused cockpit</li>
+    <li><strong>Technology:</strong> BMW iDrive system, digital cluster, performance tracking features</li>
+    <li><strong>Safety:</strong> Advanced driver assistance systems, stability control, parking assist</li>
+  </ul>
+
+  <h2>Engine Options</h2>
+  <ul>
+    <li>M5 – 3.0L twin-turbo inline-6</li>
+    <li>M5 Competition – Higher output version with enhanced performance</li>
+    <li>M5 Competition xDrive – All-wheel drive for maximum traction and speed</li>
+  </ul>
+
+  <h2>Fuel Efficiency</h2>
+  <p>
+    The BMW M5 prioritizes performance, but still offers reasonable efficiency 
+    for a high-performance sports car thanks to advanced engine technology.
+  </p>
+
+  <h2>Why Choose BMW M5?</h2>
+  <ul>
+    <li>Track-level performance and power</li>
+    <li>Sharp handling and driving precision</li>
+    <li>Aggressive and modern design</li>
+    <li>Premium sports interior with advanced tech</li>
+  </ul>
+        </ol>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modalBMWi7" tabindex="-1" aria-labelledby="modalBMWi7Label" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content text-dark">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalBMWi7Label">BMW i7 Model Details</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <h6>Specifications:</h6>
+       <ul>
+    <li><strong>Performance:</strong> Fully electric drivetrain, instant torque, smooth and silent acceleration</li>
+    <li><strong>Range:</strong> Long electric driving range suitable for daily and long-distance travel</li>
+    <li><strong>Interior:</strong> Ultra-luxurious cabin, executive lounge seating, premium materials</li>
+    <li><strong>Technology:</strong> BMW curved display, iDrive system, rear-seat entertainment screen</li>
+    <li><strong>Safety:</strong> Advanced driver assistance systems, parking assistant, highway assist</li>
+  </ul>
+
+  <h2>Battery & Power</h2>
+  <ul>
+    <li>Dual electric motors (xDrive all-wheel drive)</li>
+    <li>High-capacity battery pack</li>
+    <li>Fast charging capability (DC fast charging supported)</li>
+  </ul>
+
+  <h2>Charging</h2>
+  <p>
+    The BMW i7 supports both home charging and public fast charging, allowing 
+    drivers to recharge quickly and conveniently. Fast chargers can provide 
+    significant range in a short time.
+  </p>
+
+  <h2>Why Choose BMW i7?</h2>
+  <ul>
+    <li>Fully electric with zero emissions</li>
+    <li>Exceptional luxury and comfort</li>
+    <li>Advanced digital and entertainment features</li>
+    <li>Smooth and powerful electric performance</li>
+  </ul>
+        </ol>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modalBMWi8" tabindex="-1" aria-labelledby="modalBMWi8Label" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content text-dark">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalBMWi8Label">BMW i8 Model Details</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <h6>Ingredients:</h6>
+        <ul>
+    <li><strong>Performance:</strong> Hybrid powertrain combining electric motor and turbocharged engine</li>
+    <li><strong>Design:</strong> Futuristic styling, scissor doors, aerodynamic body</li>
+    <li><strong>Interior:</strong> Premium materials, driver-focused cockpit, modern digital displays</li>
+    <li><strong>Technology:</strong> BMW iDrive system, digital instrument cluster, eco driving modes</li>
+    <li><strong>Efficiency:</strong> Electric-only driving capability for short distances</li>
+  </ul>
+
+  <h2>Engine & Powertrain</h2>
+  <ul>
+    <li>1.5L turbocharged 3-cylinder petrol engine</li>
+    <li>Electric motor for additional power and efficiency</li>
+    <li>Combined hybrid system delivering strong acceleration</li>
+    <li>All-wheel drive through dual power sources</li>
+  </ul>
+
+  <h2>Fuel Efficiency</h2>
+  <p>
+    The BMW i8 offers impressive fuel efficiency thanks to its hybrid system, 
+    allowing for reduced fuel consumption and lower emissions compared to 
+    traditional sports cars.
+  </p>
+
+  <h2>Why Choose BMW i8?</h2>
+  <ul>
+    <li>Unique and futuristic design</li>
+    <li>Combination of performance and efficiency</li>
+    <li>Advanced hybrid technology</li>
+    <li>Exclusive and eye-catching presence</li>
+  </ul>
+
+  <h2>Competitors</h2>
+  <ul>
+    <li>Audi R8 (entry-level comparison)</li>
+    <li>Porsche 911</li>
+    <li>Acura NSX</li>
+  </ul>
+        </ol>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modalBMWX5" tabindex="-1" aria-labelledby="modalBMWX5Label" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content text-dark">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalBMWX5Label">BMW X5 Model</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <h6>Specifications:</h6>
+      <ul>
+    <li><strong>Performance:</strong> Turbocharged engines, smooth automatic transmission, xDrive all-wheel drive</li>
+    <li><strong>Design:</strong> Bold SUV styling, muscular stance, signature kidney grille</li>
+    <li><strong>Interior:</strong> Spacious cabin, high-quality materials, optional third-row seating</li>
+    <li><strong>Technology:</strong> BMW iDrive system, curved display, Apple CarPlay, Android Auto</li>
+    <li><strong>Safety:</strong> Adaptive cruise control, lane assist, parking assistant, 360° camera</li>
+  </ul>
+
+  <h2>Engine Options</h2>
+  <ul>
+    <li>xDrive40i – Turbocharged inline-6 engine</li>
+    <li>xDrive50e – Plug-in hybrid with electric driving capability</li>
+    <li>M60i – High-performance V8 engine</li>
+  </ul>
+
+  <h2>Fuel Efficiency</h2>
+  <p>
+    The BMW X5 delivers balanced fuel efficiency for an SUV, with hybrid models 
+    offering improved economy and reduced emissions.
+  </p>
+
+  <h2>Why Choose BMW X5?</h2>
+  <ul>
+    <li>Luxury and comfort with SUV practicality</li>
+    <li>Strong performance and towing capability</li>
+    <li>Advanced technology and safety features</li>
+    <li>Spacious interior for families and travel</li>
+  </ul>
+       </ol>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modalBMWX6" tabindex="-1" aria-labelledby="modalBMWX6Label" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content text-dark">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalBMWX6Label">BMW X6 Model</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <h6>Specifications:</h6>
+         <ul>
+    <li><strong>Performance:</strong> Turbocharged engines, xDrive all-wheel drive, sport-tuned suspension</li>
+    <li><strong>Design:</strong> Coupe-style roofline, aggressive stance, illuminated kidney grille</li>
+    <li><strong>Interior:</strong> Premium materials, spacious cabin, driver-focused layout</li>
+    <li><strong>Technology:</strong> BMW iDrive system, curved display, Apple CarPlay, Android Auto</li>
+    <li><strong>Safety:</strong> Adaptive cruise control, lane assist, parking assistant, 360° camera</li>
+  </ul>
+
+  <h2>Engine Options</h2>
+  <ul>
+    <li>xDrive40i – Turbocharged inline-6 engine</li>
+    <li>M60i – High-performance V8 engine</li>
+  </ul>
+
+  <h2>Fuel Efficiency</h2>
+  <p>
+    The BMW X6 offers balanced efficiency for a performance SUV, with modern 
+    engine technology optimizing fuel consumption.
+  </p>
+
+  <h2>Why Choose BMW X6?</h2>
+  <ul>
+    <li>Sporty coupe design with SUV capability</li>
+    <li>Powerful and dynamic driving experience</li>
+    <li>Luxury interior with advanced features</li>
+    <li>Unique and bold styling</li>
+  </ul>
+       </ol>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modalBMWX7" tabindex="-1" aria-labelledby="modalBMWX7Label" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content text-dark">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalBMWX7Label">BMW X7 Model</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <h6>Specifications:</h6>
+        <ul>
+    <li><strong>Performance:</strong> Turbocharged engines, smooth automatic transmission, xDrive all-wheel drive</li>
+    <li><strong>Design:</strong> Large and commanding presence, signature kidney grille, premium styling</li>
+    <li><strong>Interior:</strong> Three-row seating, high-end materials, panoramic sunroof</li>
+    <li><strong>Technology:</strong> BMW iDrive system, curved display, rear-seat entertainment options</li>
+    <li><strong>Safety:</strong> Advanced driver assistance, parking assistant, highway assist</li>
+  </ul>
+
+  <h2>Engine Options</h2>
+  <ul>
+    <li>xDrive40i – Turbocharged inline-6 engine</li>
+    <li>M60i – High-performance V8 engine</li>
+  </ul>
+
+  <h2>Fuel Efficiency</h2>
+  <p>
+    The BMW X7 balances performance with efficiency for a large luxury SUV, 
+    offering smooth power delivery and modern fuel-saving technologies.
+  </p>
+
+  <h2>Why Choose BMW X7?</h2>
+  <ul>
+    <li>Spacious three-row luxury SUV</li>
+    <li>Ideal for families and long-distance travel</li>
+    <li>Advanced comfort and technology features</li>
+    <li>Strong performance and smooth ride</li>
+  </ul>
+        </ol>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modalBMWM9" tabindex="-1" aria-labelledby="modalBMWM9Label" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content text-dark">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalBMWM9Label">BMW M9 Model</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <h6>Specifications:</h6>
+        <ul>
+    <li><strong>Performance:</strong> Expected hybrid or fully electric high-output powertrain</li>
+    <li><strong>Design:</strong> Futuristic styling, aggressive aerodynamics, bold presence</li>
+    <li><strong>Interior:</strong> Ultra-luxury cabin with advanced digital interfaces</li>
+    <li><strong>Technology:</strong> Next-gen BMW iDrive, AI-assisted driving features</li>
+    <li><strong>Innovation:</strong> Focus on sustainability and high-performance engineering</li>
+  </ul>
+
+  <h2>Expected Specifications</h2>
+  <ul>
+    <li>High-performance hybrid or electric system</li>
+    <li>All-wheel drive (xDrive)</li>
+    <li>Track-ready performance with luxury comfort</li>
+  </ul>
+
+  <h2>Why Choose BMW M9?</h2>
+  <ul>
+    <li>Future-focused performance and design</li>
+    <li>Ultimate luxury combined with M power</li>
+    <li>Exclusive and concept-level innovation</li>
+    <li>Flagship performance sedan experience</li>
+  </ul>
+        </ol>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modalBMWXM" tabindex="-1" aria-labelledby="modalBMWXMLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content text-dark">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalBMWXMLabel">BMW XM Model</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <h6>Specifications:</h6>
+        <ul>
+    <li><strong>Performance:</strong> Plug-in hybrid V8 engine with electric motor for extreme power</li>
+    <li><strong>Design:</strong> Aggressive styling, illuminated kidney grille, bold SUV presence</li>
+    <li><strong>Interior:</strong> Luxury materials, ambient lighting, spacious cabin</li>
+    <li><strong>Technology:</strong> BMW iDrive system, curved display, advanced digital features</li>
+    <li><strong>Efficiency:</strong> Electric-only driving capability for short distances</li>
+  </ul>
+
+  <h2>Engine & Powertrain</h2>
+  <ul>
+    <li>4.4L twin-turbo V8 engine</li>
+    <li>Electric motor integrated for hybrid performance</li>
+    <li>All-wheel drive (xDrive)</li>
+    <li>High combined power output for maximum performance</li>
+  </ul>
+
+  <h2>Fuel Efficiency</h2>
+  <p>
+    The BMW XM balances high performance with improved efficiency through its 
+    hybrid system, reducing fuel consumption compared to traditional V8 SUVs.
+  </p>
+
+  <h2>Why Choose BMW XM?</h2>
+  <ul>
+    <li>One of BMW’s most powerful SUVs</li>
+    <li>Combination of luxury and extreme performance</li>
+    <li>Unique and bold design</li>
+    <li>Advanced hybrid technology</li>
+  </ul>
+       </ol>
+      </div>
+    </div>
+  </div>
+</div>
+  <footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2025 BMW Information. All Rights Reserved.</p>
+    <small>Designed for car enthusiasts everywhere.</small>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
