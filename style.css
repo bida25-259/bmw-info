@@ -33,47 +33,6 @@ body {
   color: #1c69d4;
 }
 
-/* HERO */
-.hero {
-  background-image: url('images/BMW logo.jpg');
-  background-size: fill;
-  background-position: center;
-  height: 50vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.hero .container {
-  text-align: center;
-  color: #65b4d5;
-}
-
-.hero .display-4 {
-  font-size: 3rem;
-  font-weight: bold;
-}
-
-.hero .lead {
-  font-size: 1.5rem;
-}
-
-.hero .btn {
-  font-size: 1.2rem;
-  padding: 12px 30px;
-  background-color: #1c69d4;
-  color: #65b4d5;
-  border: none;
-  border-radius: 25px;
-  transition: all 0.3s ease;
-}
-
-.hero .btn:hover {
-  background-color: #0b3a82;
-  color: #65b4d5;
-  transform: scale(1.1);
-}
-
 /* FEEDBACK */
 #feedback {
   background-color: #65b4d5;
@@ -254,9 +213,6 @@ background:rgba(0,0,0,0.5);
 border-radius:10px;
 padding:10px;
 }
-
-
-
 
 footer {
   background-color: #0a1f44;
